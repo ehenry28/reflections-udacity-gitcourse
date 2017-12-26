@@ -5,3 +5,13 @@ which contains data that tracks the history of the files in the repository.
 You need to do this in order to have that history recorded.
 
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The working directory is where you first make changes. 
+The repository is where those changes are stored. 
+The staging area is an intermediate space between the two, 
+where you can select which files from working directory
+you want to include in the next commit.
+It allows you to view which changes you are going to commit.
+
+
