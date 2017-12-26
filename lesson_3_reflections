@@ -5,3 +5,37 @@ or that I want to access from multiple computers.
 It could also be used as a backup for files that I don't want to lose if something
 happened to my computer.
 
+
+Why might you want to always pull changes manually rather than 
+having Git automatically stay up-to-date with your remote repository?
+
+If other people were making changes to my remote repository,
+I might wish to pick the times when it would be convenient
+to incorporate their changes into my local repository,
+since their changes might interfere with my work.
+
+
+Describe the difference between forks, clones, and branches.
+When would you use one instead of another?
+
+A fork is a copy of a repository, where both the origin repo and the 
+new copy live in GitHub.
+You would create a fork is someone else has a repo in GitHub that you would
+like to work on without interfering with their work.
+A clone is a copy of a repository where the new copy will live on your 
+local machine. (The original repo could live in GitHub or somewhere else.)
+You would use a clone to copy a repo or a fork onto your machine so you 
+can make changes locally, or to copy a repo between different locations
+on your own computer.
+A branch is a copy of a repo for storing changes related to a code change.
+You would use a branch to do the work of developing a new feature.
+
+
+What is the benefit of having the last known state of the remote 
+stored locally?
+
+Having the last known state of the remote stored locally allows you to
+fetch changes into that branch, from which you can run diffs, 
+without making changes to your working branch.
+
+
