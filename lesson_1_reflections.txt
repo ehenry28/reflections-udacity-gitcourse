@@ -24,3 +24,20 @@ Git is designed to be used for repositories where multiple files depend on one a
 while Google Docs is designed to be used for storing files that work independently of each other.
 
 
+How can you use the commands git log and git diff to view the history of files?
+
+First, use the 'git log' command to view a list of recent commits,
+including their commitID and label.
+Type 'q' to escape from the git log output.
+Then use 'git diff [commitID of first commit] [commitID of second commit]'
+to see exactly which lines were added or removed between the two files.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+When using version control, it is easy to go back to a previous version where things worked. You can look at exactly which lines changed between the working version and the broken version.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to have more confidence in commiting code for IC.
