@@ -15,3 +15,43 @@ you want to include in the next commit.
 It allows you to view which changes you are going to commit.
 
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+If several files were involved in the change, you can see them all in the staging area and view their diff to be sure the changes are interdependent.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+It makes sense to create branches if you want to have multiple versions of your project. 
+For example, perhaps you want to have one version that you know works and another version to use for experimenting with new changes. 
+Or, perhaps you want to have versions in two different languages, or one simple version and one more complex version. 
+Or, perhaps you want to work on multiple features simultaneously.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams show where the branches separate and indicate the parent of each commit. That way I can see how many branches there are and whether there are any unreachable commits.
+
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+Merging two branches together combines the commits from both branches.
+In the diagram, we show it as two parent commits with one child commit,
+indicating that the commit at the tip incorporates changes from two previous commits.
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Git does most of the work by automatically including changes made on one branch
+but not touched on the other branch. 
+Occasionally there might be a situation where a bug could occur
+if mulitiple people were working on different branches,
+but most of the time this method works well.
+Merging manually takes much longer but might avoid hidden bugs.
+
+
+
+
+
+
