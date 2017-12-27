@@ -39,3 +39,17 @@ fetch changes into that branch, from which you can run diffs,
 without making changes to your working branch.
 
 
+How would you collaborate without using Git or GitHub?
+What would be easier, and what would be harder?
+
+Without Git or GitHub, it would be much harder to collaborate on code
+because you would need to be constantly checking with your collaboratorators
+to make sure their changes do not interfere with yours.
+Collaborating without GitHub would require each developer to work on
+a separate part of the code or risk having their work undone.
+GitHub makes it easy to see others' changes and notify them of any concerns.
+
+
+
+
+
